@@ -2,4 +2,6 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 // Stampa in console tutti i nomi
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
-names.forEach(element => console.log(element));
+let nameString = ``;
+names.forEach(element => nameString += `${element}, `);
+console.log(nameString)
